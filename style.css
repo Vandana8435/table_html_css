@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    border-collapse: collapse;
+    width: 60%;
+    margin: auto;
+}
+
+td {
+    border: none;
+    padding: 8px;    
+}
+tr{
+    border-bottom: 1px solid #dee2e6;
+    text-align: left;
+}
+tr:last-child td{
+    border-bottom: none;
+}
+th {
+    background-color:grey; /* Header background color */
+    color: white; /* Header font color */
+    font-style: italic; /* Header font style */
+    font-size: 1.1em; /* Header font size */
+    padding: 10px;
+  }
+.highest{
+    background-color: greenyellow;
+}
+.scrollable-container{
+    height: 220px;
+    overflow-y: auto;
+    margin-top: 100px;
+}
